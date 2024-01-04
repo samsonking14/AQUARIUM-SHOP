@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+/* Intro */
+
+.section-main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static;
+  z-index: -100;
+}
+
+.content {
+  position: relative;
+  right: 30rem;
+  top: 100px;
+}
+
+.content .anih1 {
+  display: flex;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #01beff;
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0px 1px 0px #35569f, 0px 2px 0px #35569f, 0px 3px 0px #35569f,
+    0px 4px 0px #35569f, 0px 5px 0px #35569f, 0px 6px 0px #35569f,
+    0px 7px 0px #35569f;
+}
+.content .anih2 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-size: 50px;
+  color: #1206ff;
+  font-weight: 600;
+}
+.newanih3 {
+  text-decoration: none;
+  color: #000;
+}
+.content .anih3 {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.video {
+  z-index: -100;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#myvideo {
+  width: 100%;
+}
+.h-exicon {
+  color: aqua;
+  font-size: 60px;
+  position: relative;
+  left: 250px;
+  bottom: 80px;
+}
+
+/* Shop */
+
+.s-shop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static;
+  z-index: -100;
+  background: linear-gradient(180deg, #58ceff, #007dff);
+}
+
+/* About */
+
+.a-about {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static;
+  z-index: 99;
+  background: linear-gradient(180deg, #007dff, #000);
+}
+.a-about .cor {
+  height: 550px;
+  width: 550px;
+  position: relative;
+  left: 500px;
+  top: 300px;
+  border-radius: 50px;
+}
+.a-about .fish {
+  position: relative;
+  height: 250px;
+  right: 430px;
+  bottom: 240px;
+  border-radius: 50px;
+}
+.a-about h1 {
+  font-size: 60px;
+  position: relative;
+  bottom: 370px;
+  right: 50px;
+  text-decoration: underline;
+  color: gold;
+}
+.a-about p {
+  font-size: 30px;
+  position: relative;
+  margin-left: 60rem;
+  bottom: 300px;
+  right: 750px;
+  color: aqua;
+}
+
+/****CONTACT****/
+
+.c-contact {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static;
+  z-index: -100;
+  background: linear-gradient(180deg, #000, #3533cd);
+}
+
+.gall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gall img {
+  height: 350px;
+  cursor: pointer;
+  animation: bounce 4s linear infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #26ff00;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #ff0000;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #cc4949;
+}
+/****Footer****/
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static;
+  z-index: -100;
+}

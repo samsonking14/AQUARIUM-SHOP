@@ -1,0 +1,13 @@
+ //import BounceLoader from 'react-spinners/BounceLoader'
+//import { color } from 'framer-motion';
+  //const [loading, setLoading] = useState(false);
+
+ // useEffect(() => {
+   // setLoading(true);
+   // setTimeout(() => {
+     // setLoading(false);
+   // }, 2000);
+ // }, []);
+ //<div className='load'>
+      //{loading ? (<BounceLoader size={100} color={"2ed5ff"} loading={loading} />)
+      //  : ()}</div>

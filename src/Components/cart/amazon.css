@@ -1,0 +1,77 @@
+.warning {
+  height: 100%;
+  width: 210px;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: rgb(210, 91, 91);
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+}
+.seccard {
+  position: relative;
+  bottom: 160px;
+}
+.amazvid {
+  width: 100%;
+  height: 100vh;
+}
+.amaz {
+  height: 1696vh;
+  background: linear-gradient(
+    180deg,
+    #fbf9ca,
+    #a3c1ad,
+    #5f9ea0,
+    #1da2d8,
+    #7fcdff,
+    #051465
+  );
+}
+.amz1 {
+  font-size: 50px;
+  color: crimson;
+  top: 30px;
+  position: relative;
+  text-align: center;
+}
+.amz2 {
+  font-size: 50px;
+  color: crimson;
+  position: relative;
+  text-align: center;
+  top: 1610px;
+}
+.amz3 {
+  font-size: 50px;
+  color: crimson;
+  position: relative;
+  text-align: center;
+  top: 3055px;
+}
+.amz4 {
+  font-size: 50px;
+  color: crimson;
+  position: relative;
+  text-align: center;
+  top: 3740px;
+}
+.amz5 {
+  font-size: 50px;
+  color: crimson;
+  position: relative;
+  word-spacing: 20px;
+  text-align: center;
+  top: 4510px;
+}
+.amz6 {
+  font-size: 50px;
+  color: crimson;
+  position: relative;
+  word-spacing: 20px;
+  top: 14575px;
+  text-align: center;
+}

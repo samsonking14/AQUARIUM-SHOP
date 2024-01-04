@@ -1,0 +1,77 @@
+.image {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  border-radius: 50px;
+}
+.text {
+  color: transparent;
+  font-size: 120px;
+  padding: 8px 12px;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  position: relative;
+  bottom: 300px;
+  left: 900px;
+  text-decoration: none;
+  display: flex;
+}
+.secndry {
+  color: aqua;
+}
+.text {
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: translate(-50%, -50%);
+  background-position: -1700px 0;
+  animation: anim 4s linear infinite alternate;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+}
+.text2 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: translate(-50%, -50%);
+  background-position: -1900px 0;
+  animation: anim 5s linear infinite alternate;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+}
+.text3 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: translate(-50%, -50%);
+  background-position: -1700px 0;
+  animation: anim 6s linear infinite alternate;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+}
+.text2 {
+  color: transparent;
+  font-size: 80px;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  display: inline;
+  text-decoration: none;
+  bottom: 600px;
+}
+@keyframes anim {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.text3 {
+  color: transparent;
+  font-size: 80px;
+  padding: 8px 12px;
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  position: relative;
+  bottom: 450px;
+  left: 830px;
+  text-decoration: none;
+}

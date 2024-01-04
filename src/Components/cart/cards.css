@@ -1,0 +1,85 @@
+.seccard {
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  margin-left: 20px;
+  position: relative;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+
+.cards {
+  width: 100%;
+  padding: 20px;
+  transition: 0.9s;
+}
+.cards:hover {
+  cursor: pointer;
+}
+.image_box {
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.image_box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cards:hover .details * {
+  visibility: visible;
+  transform: translateY(-20px);
+}
+.seccards:hover .cards {
+  transform: translateY(-20px);
+  opacity: 1;
+}
+.details {
+  visibility: hidden;
+  text-align: center;
+}
+.details p:nth-child(1) {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+.details p:nth-child(2) {
+  color: crimson;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.details button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: aqua;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+}
+.ribbonnew {
+  width: 60px;
+  font-size: 14px;
+  padding: 4px;
+  position: absolute;
+  right: -25px;
+  top: -212px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #ff9800;
+  color: white;
+}

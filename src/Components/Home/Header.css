@@ -1,0 +1,57 @@
+header {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  transition: 0.6s;
+}
+
+header .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .hdmenu a {
+  color: aqua;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: 0.3s;
+  transition-property: color;
+  font-size: 20px;
+}
+
+header .hdmenu a:hover {
+  color: orange;
+  background: #fff;
+  border-radius: 50px;
+}
+
+.hdbutton {
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  background: #000;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  color: aqua;
+  font-weight: 540;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  box-shadow: none;
+}
+.hdbutton ion-icon {
+  position: relative;
+  bottom: 17px;
+  right: 2px;
+}

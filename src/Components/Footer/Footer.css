@@ -1,0 +1,79 @@
+footer {
+  background-color: hsl(228, 6%, 17%);
+  color: hsl(0, 0%, 53%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+.foocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foocontainer img {
+  margin-bottom: 200px;
+}
+.footext .one {
+  color: #fff;
+  margin-left: -300px;
+}
+.contact-list {
+  margin-left: -330px;
+}
+.contact-item {
+  display: flex;
+}
+.social-list {
+  display: flex;
+  margin-left: -300px;
+  margin-bottom: -40px;
+}
+.contact-item {
+  color: #fff;
+  font-weight: 700;
+  gap: 15px;
+}
+.contact-link {
+  color: blueviolet;
+  text-decoration: none;
+}
+.contact-item ion-icon {
+  width: 30px;
+  flex-shrink: 0;
+  font-size: 22px;
+  color: hsl(36, 94%, 57%);
+}
+.social-list {
+  display: flex;
+  gap: 10px;
+}
+.social-link {
+  background-color: white;
+  color: hsl(0, 0%, 0%);
+  padding: 10px;
+  border-radius: 10px 20px 30px 40px;
+  transition: 0.25s ease;
+}
+.social-link:is(:hover, :focus) {
+  background-color: hsl(15, 84%, 57%);
+  color: white;
+}
+.footer-list-title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-block: 10px;
+}
+
+.footer-link {
+  padding-block: 4px;
+  transition: 0.25s ease;
+}
+.footer-link:is(:hover, :focus) {
+  color: hsl(15, 84%, 57%);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: hsl(36, 94%, 57%);
+}
