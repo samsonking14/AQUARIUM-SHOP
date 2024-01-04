@@ -56,7 +56,7 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <a href="#" className="social-link">
+                                <a href="https://github.com/samsonking14/AQUARIUM-SHOP_Vite-React" className="social-link">
                                     <ion-icon name="logo-github"></ion-icon>
                                 </a>
                             </li>
